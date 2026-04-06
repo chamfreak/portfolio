@@ -24,7 +24,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="max-w-5xl mx-auto flex flex-wrap md:flex-nowrap md:justify-between items-center p-4 border-b border-gray-300">
+        <nav className="max-w-5xl mx-auto flex w-full flex-wrap md:flex-nowrap md:justify-between items-center p-4 border-b border-gray-300">
             <h1 className="font-bold text-lg w-full text-center mb-5 md:m-0 md:w-auto">My Portfolio</h1>
             <div className="space-x-6 text-center w-full md:w-auto">
                 {navLink("/", "Home")}
